@@ -19,18 +19,19 @@ variable "params" {
     { name = "roboshop.dev.catalogue.mongo_url", value = "mongodb://mongo-dev.smitdevops.online:27017/catalogue", type = "String" }
     { name = "roboshop.dev.dispatch.amqp_host", value = "rabbitmq-dev.smitdevops.online", type = "String" }
     { name = "roboshop.dev.dispatch.amqp_user", value = "roboshop", type = "String" }
-    { name = "roboshop.dev.dispatch.amqp_pass", value = "roboshop123", type = "SecureString" }
     { name = "roboshop.dev.payment.cart_host", value = "cart-dev.smitdevops.online", type = "String" }
     { name = "roboshop.dev.payment.cart_port", value = "8080", type = "String" }
     { name = "roboshop.dev.payment.user_host", value = "user-dev.smitdevops.online", type = "String" }
     { name = "roboshop.dev.payment.user_port", value = "8080", type = "String" }
     { name = "roboshop.dev.payment.amqp_host", value = "rabbitmq-dev.smitdevops.online", type = "String" }
     { name = "roboshop.dev.payment.amqp_user", value = "roboshop", type = "String" }
-    { name = "roboshop.dev.payment.amqp_pass", value = "roboshop123", type = "SecureString" }
     { name = "roboshop.dev.shipping.cart_endpoint", value = "cart-dev.smitdevops.online:8080", type = "String" }
     { name = "roboshop.dev.shipping.db_host", value = "mysql-dev.smitdevops.online", type = "String" }
     { name = "roboshop.dev.user.mongo", value = "true", type = "String" }
     { name = "roboshop.dev.user.redis_host", value = "redis-dev.smitdevops.online", type = "String" }
     { name = "roboshop.dev.user.mongo_url", value = "mongodb://mongodb-dev.smitdevops.online:27017/users", type = "String" }
+
+    { name = "roboshop.dev.payment.amqp_pass", value = "roboshop123", type = "SecureString" }
+    { name = "roboshop.dev.dispatch.amqp_pass", value = "roboshop123", type = "SecureString" }
   ]
 }
