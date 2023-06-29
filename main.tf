@@ -16,7 +16,7 @@ variable "params" {
     { name = "roboshop.dev.cart.catalogue_host", value = "http://catalogue-dev.smitdevops.online:8080/", type = "String" },
     { name = "roboshop.dev.cart.catalogue_port", value = "8080", type = "String" },
     { name = "roboshop.dev.catalogue.mongo", value = "true", type = "String" },
-    { name = "roboshop.dev.catalogue.mongo_url", value = "mongodb://mongo-dev.smitdevops.online:27017/catalogue", type = "String" },
+    { name = "roboshop.dev.catalogue.mongo_url", value = "mongodb://mongodb-dev.smitdevops.online:27017/catalogue", type = "String" },
     { name = "roboshop.dev.dispatch.amqp_host", value = "rabbitmq-dev.smitdevops.online", type = "String" },
     { name = "roboshop.dev.dispatch.amqp_user", value = "roboshop", type = "String" },
     { name = "roboshop.dev.payment.cart_host", value = "cart-dev.smitdevops.online", type = "String" },
