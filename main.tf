@@ -33,6 +33,7 @@ variable "params" {
 
     { name = "roboshop.dev.shipping.cart_endpoint", value = "cart-dev.smitdevops.online:8080", type = "String" },
     { name = "roboshop.dev.shipping.db_host", value = "mysql-dev.smitdevops.online", type = "String" },
+
     { name = "roboshop.dev.user.mongo", value = "true", type = "String" },
     { name = "roboshop.dev.user.redis_host", value = "redis-dev.smitdevops.online", type = "String" },
     { name = "roboshop.dev.cart.redis_host", value = "redis-dev.smitdevops.online", type = "String" },
