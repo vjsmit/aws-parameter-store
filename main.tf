@@ -19,7 +19,6 @@ variable "params" {
     { name = "roboshop.dev.cart.catalogue_port", value = "8080", type = "String" },
 
     { name = "roboshop.dev.catalogue.mongo", value = "true", type = "String" },
-    { name = "roboshop.dev.catalogue.mongo_url", value = "mongodb://mongodb-dev.smitdevops.online:27017/catalogue", type = "String" },
 
     { name = "roboshop.dev.dispatch.amqp_host", value = "rabbitmq-dev.smitdevops.online", type = "String" },
     { name = "roboshop.dev.dispatch.amqp_user", value = "roboshop", type = "String" },
@@ -48,5 +47,6 @@ variable "params" {
     { name = "roboshop.dev.rabbitmq.amqp_pass", value = "roboshop123", type = "SecureString" },
     { name = "roboshop.dev.mysql.password", value = "roboshop123", type = "SecureString" },
     { name = "roboshop.dev.docdb.password", value = "roboshop123", type = "SecureString" },
+    { name = "roboshop.dev.catalogue.mongo_url", value = "mongodb://roboshop:roboshop123@docdb-dev.cluster-cbvsbeoyxek4.us-east-1.docdb.amazonaws.com:27017/users?tls=true&replicaSet=rs0&readPreference=secondaryPreferred&retryWrites=false", type = "SecureString" },
   ]
 }
