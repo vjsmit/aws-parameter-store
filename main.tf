@@ -25,14 +25,14 @@ variable "params" {
     { name = "roboshop.dev.dispatch.amqp_user", value = "roboshop", type = "String" },
 
     { name = "roboshop.dev.payment.cart_host", value = "cart-dev.smitdevops.online", type = "String" },
-    { name = "roboshop.dev.payment.cart_port", value = "8080", type = "String" },
+    { name = "roboshop.dev.payment.cart_port", value = "80", type = "String" },
     { name = "roboshop.dev.payment.user_host", value = "user-dev.smitdevops.online", type = "String" },
-    { name = "roboshop.dev.payment.user_port", value = "8080", type = "String" },
+    { name = "roboshop.dev.payment.user_port", value = "80", type = "String" },
     { name = "roboshop.dev.payment.amqp_host", value = "rabbitmq-dev.smitdevops.online", type = "String" },
     { name = "roboshop.dev.payment.amqp_user", value = "roboshop", type = "String" },
 
-    { name = "roboshop.dev.shipping.cart_endpoint", value = "cart-dev.smitdevops.online:8080", type = "String" },
-    { name = "roboshop.dev.shipping.db_host", value = "mysql-dev.smitdevops.online", type = "String" },
+    { name = "roboshop.dev.shipping.cart_endpoint", value = "cart-dev.smitdevops.online:80", type = "String" },
+    { name = "roboshop.dev.shipping.db_host", value = "rds-dev.cluster-coasj2lnlmy7.us-east-1.rds.amazonaws.com", type = "String" },
 
     { name = "roboshop.dev.user.mongo", value = "true", type = "String" },
     { name = "roboshop.dev.user.redis_host", value = "elasticache-dev.prkv4e.clustercfg.use1.cache.amazonaws.com", type = "String" },
