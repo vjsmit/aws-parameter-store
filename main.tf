@@ -42,6 +42,9 @@ variable "params" {
     { name = "roboshop.dev.mysql.username", value = "root", type = "String" },
     { name = "roboshop.dev.docdb.username", value = "roboshop", type = "String" },
 
+    { name = "roboshop.dev.mysql.endpoint", value = "rds-dev.cluster-coasj2lnlmy7.us-east-1.rds.amazonaws.com", type = "String" },
+
+
 
     { name = "roboshop.dev.payment.amqp_pass", value = "roboshop123", type = "SecureString" },
     { name = "roboshop.dev.dispatch.amqp_pass", value = "roboshop123", type = "SecureString" },
