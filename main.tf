@@ -84,7 +84,7 @@ variable "params" {
     { name = "roboshop.prod.docdb.username", value = "roboshop", type = "String" },
     { name = "roboshop.prod.mysql.endpoint", value = "rds-prod.cluster-coasj2lnlmy7.us-east-1.rds.amazonaws.com", type = "String" },
 
-
+    #SecureString
     { name = "roboshop.prod.payment.amqp_pass", value = "roboshop123", type = "SecureString" },
     { name = "roboshop.prod.dispatch.amqp_pass", value = "roboshop123", type = "SecureString" },
     { name = "roboshop.prod.rabbitmq.amqp_pass", value = "roboshop123", type = "SecureString" },
