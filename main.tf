@@ -98,5 +98,15 @@ variable "params" {
 #    Nexus
     { name = "roboshop.nexus.username", value = "admin", type = "String" },
     { name = "roboshop.nexus.password", value = "admin123", type = "SecureString" },
+
+    #APP_VERSION
+    { name = "roboshop.prod.frontend.app_version", value = "1.0.0", type = "String" },
+    { name = "roboshop.prod.catalogue.app_version", value = "1.0.2", type = "String" },
+    { name = "roboshop.prod.user.app_version", value = "1.0.1", type = "String" },
+    { name = "roboshop.prod.cart.app_version", value = "1.0.3", type = "String" },
+    { name = "roboshop.prod.shipping.app_version", value = "1.0.1", type = "String" },
+    { name = "roboshop.prod.payment.app_version", value = "1.0.0", type = "String" },
+    { name = "roboshop.prod.dispatch.app_version", value = "1.0.0", type = "String" },
+
   ]
 }
